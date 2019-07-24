@@ -29,5 +29,7 @@ def user_login(request):
 def user_logout(request):
     logout(request)
     return redirect("article:article_list")
-def user_re
+def user_register():
+    pass
+
 
